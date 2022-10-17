@@ -14,22 +14,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- favicon  -->
-    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/imgs/logo.png" type="image/x-icon">
     <!-- css 연결 -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!-- js 연결 -->
-    <script src="main.js" defer></script>
+    <script src="/js/main.js" defer></script>
 </head>
 <body>
     <!-- Navbar -->
     <nav id="navbar">
         <div class="navbar__logo">
-            <img src="./imgs/favicon.png" alt="">
+            <img src="/imgs/logo.png" alt="">
             <a href="#">AYOUNG PARK</a>
         </div>
         <div class="navbar__menu">
             <ul class="navbar__menu">
-                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item active">Home</li>
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skills</li>
                 <li class="navbar__menu__item">My Work</li>
@@ -38,24 +39,119 @@
             </ul>
         </div>
     </nav>
+
     <!-- Home -->
     <section id="home">
-        <img 
-        src="./imgs/header.png" 
-        alt="profile photo" 
-        class="home__img">
         <h1 class="home__title">Hello, <br> I'm AYOUNG PARK.</h1>
-        <button class="home__contact"></button>
+        <button class="home__contact">CONTACT ME</button>
     </section>
+
     <!-- About -->
-    <section id="about"></section>
+    <section id="about">
+        <h1>About me</h1>
+        <div class="about__lists">
+            <div class="list">
+                <div class="list__title">EDUCATION</div>
+                <div class="list__description"></div>
+                    1998 부산여고 졸업<br>
+                    2002 인제대학교 식품공학과 졸업 <br>
+                    2022 하이미디어아카데미 포토샵, 일러스트레이터 과정 수료 <br>
+                    2022 TIS 정보기술센터 프론트엔드 과정 수료
+            </div>
+            <div class="list">
+                <div class="list__title">EXPERIANCES</div>
+                <div class="list__description"></div>
+                2012 대한민국 해군 전탐하사 복무(5년)<br>
+                2019 웰스토리 베트남 법인 운영 티망 (2년)
+            </div>
+            <div class="list">
+                <div class="list__title">LANGUAGES</div>
+                <div class="list__description"></div>
+                ENGLISH <br>
+                VIETNAMESE <br>
+                CHINESE <br>
+            </div>
+            
+        </div>
+    </section>
+
     <!-- Skills -->
-    <section id="skills"></section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skillset">
+            <div class="skillset__skills">
+                <h3 class="skillset__title">Skills</h3>
+                <div class="skill__description">
+                    <div class="skill__txt">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+                <div class="skill__description">
+                    <div class="skill__txt">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+                <div class="skill__description">
+                    <div class="skill__txt">
+                        <span>JAVASCRIPT</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill__bar">
+                        <div class="skill__value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset__skills">
+                <h3 class="skillset__title">Tools</h3>
+                <div class="tools__list">
+                    <ul>
+                        <li><span>Visual Studio Code</span></li>
+                        <li><span>Figma</span></li>
+                        <li><span>Git</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
     <!-- Work -->
-    <section id="work"></section>
+    <section id="work">
+        <h1>My Work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn">All<span class="category__count">8</span></button>
+            <button class="category__btn">Front-End<span class="category__count">3</span></button>
+            <button class="category__btn">Graphic-Design<span class="category__count">3</span></button>
+        </div>
+        <div class="work__projects">
+            <a 
+                href="" 
+                class="project"
+                target="blank">
+                <img 
+                src="./imgs/resume.png" 
+                alt="">
+                <div class="project__description">
+                    <h3>LG재단</h3>
+                    <span>Clone Coding wirh HTML and CSS</span>
+                </div>             
+            </a>
+        </div>
+    </section>
+
     <!-- Testimonials -->
     <section id="testimonials"></section>
+
     <!-- Contact -->
-    <section id="contact">CONTACT ME</section>
+    <section id="contact"></section>
 </body>
 </html>

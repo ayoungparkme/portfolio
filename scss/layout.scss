@@ -1,0 +1,82 @@
+@import "vars";
+@import "mixins";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "open sans", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: $font-large;
+  font-weight: $weight-bold;
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: $font-regular;
+  font-weight: $weight-semi-bold;
+  margin: 8px 0px;
+}
+
+h3 {
+  font-size: $font-regular;
+  font-weight: $weight-regular;
+  margin: 8px 0px;
+}
+p {
+  font-size: $font-regular;
+  font-weight: $weight-regular;
+  margin: 4px 0px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0069c0;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  height: 100px;
+  overflow: hidden;
+  line-height: 100px;
+
+  .navbar__logo {
+    font-size: $font-medium;
+    font-weight: $weight-semi-bold;
+  }
+  .navbar__menu {
+    display: flex;
+    .navbar__menu__item {
+      font-weight: $weight-semi-bold;
+      padding: 8px 12px;
+      margin: 0 4px;
+      cursor: pointer;
+      &:hover {
+        color: #ff5722;
+        border-radius: $size-border-radius;
+      }
+    }
+    .active {
+      border: 1px solid #ff5722;
+      border-radius: $size-border-radius;
+    }
+  }
+}

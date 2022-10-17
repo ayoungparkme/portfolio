@@ -1,0 +1,12 @@
+@import "vars";
+@import "mixins";
+
+#home {
+  background-image: url("/imgs/header.png");
+  background-position: center;
+  background-size: cover;
+  h1 {
+    height: 1000px;
+    padding: 30% 30%;
+  }
+}
