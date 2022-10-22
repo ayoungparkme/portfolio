@@ -1,9 +1,30 @@
 #home {
-  background-image: url("/imgs/header.png");
+  background: url("/imgs/homeBackground.png");
   background-position: center;
   background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 800px;
+  padding: 100px;
+  text-align: center;
 }
-#home h1 {
-  height: 1000px;
-  padding: 30% 30%;
+#home .home__title,
+#home .home__description {
+  color: #fff;
+}
+#home .home__contact {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+}
+
+#about {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 800px;
 }

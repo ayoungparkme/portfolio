@@ -7,6 +7,7 @@
 body {
   margin: 0;
   font-family: "open sans", "sans-serif";
+  cursor: default;
 }
 
 a {
@@ -20,63 +21,68 @@ ul {
 }
 
 h1 {
-  font-size: $font-large;
+  font-size: $h1;
   font-weight: $weight-bold;
   margin: 16px 0px;
 }
 
 h2 {
-  font-size: $font-regular;
+  font-size: $h2;
   font-weight: $weight-semi-bold;
   margin: 8px 0px;
 }
 
 h3 {
-  font-size: $font-regular;
+  font-size: $h3;
   font-weight: $weight-regular;
   margin: 8px 0px;
 }
 p {
-  font-size: $font-regular;
+  font-size: $h4;
   font-weight: $weight-regular;
   margin: 4px 0px;
 }
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
 
+// navbar
 #navbar {
   display: flex;
   justify-content: space-between;
+  background-color: $sky;
   align-items: center;
-  color: #0069c0;
+  color: #fff;
   padding: 16px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  height: 100px;
-  overflow: hidden;
-  line-height: 100px;
 
   .navbar__logo {
-    font-size: $font-medium;
-    font-weight: $weight-semi-bold;
+    font-size: $h2;
+    font-weight: $weight-bold;
+    a {
+      color: #fff;
+    }
   }
+
   .navbar__menu {
     display: flex;
+
     .navbar__menu__item {
-      font-weight: $weight-semi-bold;
       padding: 8px 12px;
       margin: 0 4px;
       cursor: pointer;
-      &:hover {
-        color: #ff5722;
-        border-radius: $size-border-radius;
-      }
-    }
-    .active {
-      border: 1px solid #ff5722;
+      font-weight: $weight-semi-bold;
+      font-size: $h3;
       border-radius: $size-border-radius;
+
+      .active {
+        border: 1px solid #fff;
+      }
+      &:hover {
+        background-color: orange;
+      }
     }
   }
 }

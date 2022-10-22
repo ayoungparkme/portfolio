@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: "open sans", "sans-serif";
+  cursor: default;
 }
 
 a {
@@ -24,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 600;
   margin: 8px 0px;
 }
@@ -36,45 +37,47 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin: 4px 0px;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 #navbar {
   display: flex;
   justify-content: space-between;
+  background-color: #1865f6;
   align-items: center;
-  color: #0069c0;
+  color: #fff;
   padding: 16px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-  height: 100px;
-  overflow: hidden;
-  line-height: 100px;
 }
 #navbar .navbar__logo {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
+}
+#navbar .navbar__logo a {
+  color: #fff;
 }
 #navbar .navbar__menu {
   display: flex;
 }
 #navbar .navbar__menu .navbar__menu__item {
-  font-weight: 600;
   padding: 8px 12px;
   margin: 0 4px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px;
+}
+#navbar .navbar__menu .navbar__menu__item .active {
+  border: 1px solid #fff;
 }
 #navbar .navbar__menu .navbar__menu__item:hover {
-  color: #ff5722;
-  border-radius: 4px;
-}
-#navbar .navbar__menu .active {
-  border: 1px solid #ff5722;
-  border-radius: 4px;
+  background-color: orange;
 }
