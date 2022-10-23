@@ -19,6 +19,7 @@
   background-repeat: no-repeat;
   height: 800px;
   padding: 100px;
+  padding-top: 120px;
   text-align: center;
   .home__title,
   .home__description {
@@ -40,7 +41,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  padding: 200px;
+  padding: 150px;
   box-sizing: content-box;
   h1 {
     color: $red;
@@ -53,46 +54,90 @@
     .major {
       width: 50%;
       margin-bottom: 50px;
-    }
-    .major__icon {
-      width: 170px;
-      height: 170px;
-      line-height: 170px;
-      font-size: 70px;
-      margin: auto;
-      color: $yellow;
-      border: 3px solid $yellow;
-      border-radius: 50%;
-      margin-bottom: 16px;
-      &:hover i {
-        color: $pink;
-        transform: rotate(-30deg) scale(1.1);
-      }
-      i {
-        transition: all 300ms ease;
-      }
-    }
-    .major__title,
-    .major__description {
       color: $light-yellow;
-    }
-    .major__description {
-      font-size: $h3;
-      line-height: 1.5;
+      line-height: 2;
+
+      .major__icon {
+        width: 170px;
+        height: 170px;
+        line-height: 170px;
+        font-size: 70px;
+        margin: auto;
+        color: $yellow;
+        border: 3px solid $yellow;
+        border-radius: 50%;
+        margin-bottom: 16px;
+        &:hover i {
+          color: $pink;
+          transform: rotate(-30deg) scale(1.1);
+        }
+        i {
+          transition: all 300ms ease;
+        }
+        .major__title,
+        .major__description {
+          color: $light-yellow;
+        }
+        .major__description {
+          font-size: $h3;
+          line-height: 1.5;
+        }
+      }
+
+      .langset {
+        display: flex;
+        border-radius: 50px;
+        color: #333;
+        margin: 20px 0;
+        .langset__left {
+          flex-basis: 100%;
+          color: #fff;
+          padding: 20px 40px;
+          .lang {
+            margin-bottom: 32px;
+            .lang__description {
+              display: flex;
+              justify-content: space-between;
+            }
+            .lang__bar {
+              width: 100%;
+              height: 10px;
+              background-color: grey;
+              border-radius: 10px;
+              .lang__value {
+                width: 100%;
+                height: 10px;
+                background-color: $yellow;
+                border-radius: 10px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
 
 #skills {
-  background: $light-yellow;
+  background: url("/imgs/homeBackground.png");
+  background-position: center;
+  background-size: cover;
+  h1 {
+    color: #fff;
+  }
   .skillset {
     display: flex;
-    background-color: $light-grey;
-    color: #fff;
+    border-radius: 50px;
+    background-color: $light-yellow;
+    color: #333;
     margin: 20px 0;
     .skillset__left {
       flex-basis: 60%;
-      background-color: $dark-grey;
+      border-radius: 50px;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      background-color: $light-grey;
+      color: #fff;
       padding: 20px 40px;
       .skill {
         margin-bottom: 32px;
@@ -219,5 +264,38 @@
         }
       }
     }
+  }
+}
+
+#gracphic__design {
+  background: $pink;
+}
+
+// for below 768px screen width
+@media screen and (max-width: 768px) {
+  .navbar__toggle-btn {
+    display: block;
+  }
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar__menu {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .about__majors {
+    flex-direction: column;
+  }
+  .major {
+    margin-bottom: 38px;
+  }
+  .skillset {
+    flex-direction: column;
+  }
+  .project {
+    flex-grow: 1;
   }
 }

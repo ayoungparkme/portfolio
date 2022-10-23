@@ -51,12 +51,15 @@ button {
 
 // navbar
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: $sky;
+  background-color: transparent;
   align-items: center;
   color: #fff;
   padding: 16px;
+  z-index: 2;
 
   .navbar__logo {
     font-size: $h2;
@@ -80,7 +83,44 @@ button {
         border: 1px solid #fff;
       }
       &:hover {
-        background-color: orange;
+        background-color: $light-blue;
+      }
+    }
+  }
+  .navbar__toggle-btn {
+    position: absolute;
+    right: 32px;
+    top: 24px;
+    font-size: 24px;
+    color: #fff;
+    display: none;
+  }
+}
+
+// contact
+#contact {
+  background-image: url("../imgs/contactBackground.png");
+  background-position: center;
+  background-size: cover;
+  margin-left: -5px;
+  margin-right: -5px;
+  .contact__title,
+  .contact__email,
+  .contact__rights {
+    color: #fff;
+  }
+  .contact__title {
+    margin: 320x p;
+  }
+  .contact__links {
+    font-size: $h1;
+    margin: 24opx 0;
+    i {
+      transition: all $animation-duration ease-in;
+      color: #fff;
+      &:hover {
+        transform: scale(1.1);
+        color: $pink;
       }
     }
   }
