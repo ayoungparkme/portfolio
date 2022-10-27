@@ -58,7 +58,12 @@ button {
   align-items: center;
   color: #fff;
   padding: 16px;
-  z-index: 2;
+  z-index: 1;
+  transition: 300ms ease-in-out;
+}
+#navbar .navbar--dark {
+  background-color: #ff6601;
+  padding: 8px;
 }
 #navbar .navbar__logo {
   font-size: 28px;
