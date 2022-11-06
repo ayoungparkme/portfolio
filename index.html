@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="https://kit.fontawesome.com/382c9db2df.js" crossorigin="anonymous"></script>
-    <script defer src="./js/main.js"></script>
+    <script src="./js/main.js" defer></script>
   </head>
   <body>
     <!-- Navbar -->
@@ -36,7 +36,7 @@
       </ul>
       <!-- Toggle button  -->
       <button class="navbar__toggle-btn">
-        <i class="fas fa-bars"></i>
+        <i class="fa-solid fa-bars"></i>
       </button>
     </nav>
 
@@ -187,18 +187,23 @@
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn active" data-filter="*">
-          All <span class="category__count">3</span>
+        <button class="category__btn selected" data-filter="*">
+          All <span class="category__count">8</span>
         </button>
-        <button class="category__btn" data-filter="Clone Coding">
+        <button class="category__btn" data-filter="clone-coding">
           Clone Coding <span class="category__count">3</span>
         </button>
-        <button class="category__btn" data-filter="Renewal">
-          Renewal <span class="category__count">0</span>
+        <button class="category__btn" data-filter="renewal">
+          Renewal <span class="category__count">5</span>
         </button>
       </div>
       <div class="work__projects">
-        <a href="https://ayoungparkme.github.io/lg-clone-coding/" class="project" target="blank" data-type="clone-coding">
+        <a 
+          href="https://ayoungparkme.github.io/lg-clone-coding/" 
+          class="project" 
+          data-type="clone-coding"
+          target="blank" 
+       >
           <img
             src="imgs/projects/cloneCoding/lg_fullScreenCapture.png"
             alt=""
@@ -229,44 +234,44 @@
         <a
           href="https://ayoungparkme.github.io/yonsei-clone-coding/"
           class="project"
-          data-type="clone"
+          data-type="clone-coding"
           target="blank"
         >
           <img class="project__img" src="imgs/projects/cloneCoding/ys_fullScreenCapture.png" alt="navbar" />
           <div class="project__description">
             <h3>연세대학교 이과대학 홈페이지</h3>
-            <span>HTML, CSS, JavaScript, Json</span>
+            <span>Clone coding with HTML, CSS and JS</span>
           </div>
         </a>
-        <a href="" class="project" data-type="back-end">
+        <a href="" class="project" data-type="renewal" target="blank">
           <img class="project__img" src="imgs/projects/game.png" alt="" />
           <div class="project__description">
             <h3>Project</h3>
             <span>Explanation</span>
           </div>
         </a>
-        <a href="" class="project" data-type="back-end">
+        <a href="" class="project" data-type="renewal" target="blank">
           <img class="project__img" src="imgs/projects/game.png" alt="" />
           <div class="project__description">
             <h3>Project</h3>
             <span>Explanation</span>
           </div>
         </a>
-        <a href="" class="project" data-type="mobile">
+        <a href="" class="project" data-type="renewal" target="blank">
           <img class="project__img" src="imgs/projects/game.png" alt="" />
           <div class="project__description">
             <h3>Project</h3>
             <span>Explanation</span>
           </div>
         </a>
-        <a href="" class="project" data-type="mobile">
+        <a href="" class="project" data-type="renewal" target="blank">
           <img class="project__img" src="imgs/projects/game.png" alt="" />
           <div class="project__description">
             <h3>Project</h3>
             <span>Explanation</span>
           </div>
         </a>
-        <a href="" class="project" data-type="mobile">
+        <a href="" class="project" data-type="renewal" target="blank">
           <img class="project__img" src="imgs/projects/game.png" alt="" />
           <div class="project__description">
             <h3>Project</h3>
@@ -308,9 +313,9 @@
     </section>
 
     <!-- Arrow up -->
-    <!-- <button class="arrow-up">
+    <button class="arrow-up">
       <i class="fas fa-arrow-up"></i>
-    </button> -->
+    </button>
     
   </body>
 </html>

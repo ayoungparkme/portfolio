@@ -47,6 +47,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  padding: 0;
 }
 
 #navbar {
@@ -63,7 +64,7 @@ button {
 }
 #navbar .navbar--dark {
   background-color: #ff6601;
-  padding: 8px;
+  padding: 16px;
 }
 #navbar .navbar__logo {
   font-size: 28px;
