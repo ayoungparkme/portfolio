@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="https://kit.fontawesome.com/382c9db2df.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/masonry.pkgd.min.js"></script>
     <script src="./js/main.js" defer></script>
   </head>
   <body>
@@ -31,7 +33,6 @@
         <li class="navbar__menu__item" data-link="#about">About</li>
         <li class="navbar__menu__item" data-link="#skills">Skills</li>
         <li class="navbar__menu__item" data-link="#work">My work</li>
-        <li class="navbar__menu__item" data-link="#graphic__design">Graphic Design</li>
         <li class="navbar__menu__item" data-link="#contact">Contact</li>
       </ul>
       <!-- Toggle button  -->
@@ -186,109 +187,91 @@
      <div class="section__container">
       <h1>My work</h1>
       <h3>Projects</h3>
-      <div class="work__categories">
-        <button class="category__btn selected" data-filter="*">
-          All <span class="category__count">8</span>
-        </button>
-        <button class="category__btn" data-filter="clone-coding">
-          Clone Coding <span class="category__count">3</span>
-        </button>
-        <button class="category__btn" data-filter="renewal">
-          Renewal <span class="category__count">5</span>
-        </button>
+      <!-- Filtering buttons -->
+      <div class="button-area filters">
+        <label class="button">
+          <input type="checkbox" value="clone-coding" />Clone Coding
+        </label>
+        <label class="button">
+          <input type="checkbox" value="renewal" />Renewal
+        </label>
+        <label class="button">
+          <input type="checkbox" value="graphic-design" />Graphic Design
+        </label>
+        
       </div>
-      <div class="work__projects">
-        <a 
-          href="https://ayoungparkme.github.io/lg-clone-coding/" 
-          class="project" 
-          data-type="clone-coding"
-          target="blank" 
-       >
-          <img
-            src="imgs/projects/cloneCoding/lg_fullScreenCapture.png"
-            alt=""
-            class="project__img"
-          />
-          <div class="project__description">
-            <h3>LG재단 홈페이지</h3>
-            <span>Clone coding with HTML, CSS and JS</span>
-          </div>
-        </a>
-        <a
-          href="https://ayoungparkme.github.io/daekwang-clone-coding/"
-          class="project"
-          data-type="clone-coding"
-          target="blank"
-        >
-
-          <img
-            class="project__img"
-            src="imgs/projects/cloneCoding/dk_fullScreenCapture.png"
-            alt=""
-          />
-          <div class="project__description">
-            <h3>대광건영 홈페이지</h3>
-            <span>Clone coding with HTML, CSS and JS</span>
-          </div>
-        </a>
-        <a
-          href="https://ayoungparkme.github.io/yonsei-clone-coding/"
-          class="project"
-          data-type="clone-coding"
-          target="blank"
-        >
-          <img class="project__img" src="imgs/projects/cloneCoding/ys_fullScreenCapture.png" alt="navbar" />
-          <div class="project__description">
-            <h3>연세대학교 이과대학 홈페이지</h3>
-            <span>Clone coding with HTML, CSS and JS</span>
-          </div>
-        </a>
-        <a href="" class="project" data-type="renewal" target="blank">
-          <img class="project__img" src="imgs/projects/game.png" alt="" />
-          <div class="project__description">
-            <h3>Project</h3>
-            <span>Explanation</span>
-          </div>
-        </a>
-        <a href="" class="project" data-type="renewal" target="blank">
-          <img class="project__img" src="imgs/projects/game.png" alt="" />
-          <div class="project__description">
-            <h3>Project</h3>
-            <span>Explanation</span>
-          </div>
-        </a>
-        <a href="" class="project" data-type="renewal" target="blank">
-          <img class="project__img" src="imgs/projects/game.png" alt="" />
-          <div class="project__description">
-            <h3>Project</h3>
-            <span>Explanation</span>
-          </div>
-        </a>
-        <a href="" class="project" data-type="renewal" target="blank">
-          <img class="project__img" src="imgs/projects/game.png" alt="" />
-          <div class="project__description">
-            <h3>Project</h3>
-            <span>Explanation</span>
-          </div>
-        </a>
-        <a href="" class="project" data-type="renewal" target="blank">
-          <img class="project__img" src="imgs/projects/game.png" alt="" />
-          <div class="project__description">
-            <h3>Project</h3>
-            <span>Explanation</span>
-          </div>
-        </a>
+    
+    <!-- Masonry contents -->
+      <div class="mnsry_container">
+        <article class="item clone-coding">
+          <h1>LG재단 </h1>
+          <img src="https://unsplash.it/600/400?random" />
+        </article>
+        <article class="item clone-coding">
+          <h1>연세대학교 이과대학</h1>
+          <img src="https://unsplash.it/600/600?random" />
+        </article>
+        <article class="item clone-coding">
+          <h1>대광건영</h1>
+          <img src="https://unsplash.it/650/420?random" />
+        </article>
+        <article class="item clone-coding">
+          <h1>HB페이퍼</h1>
+          <img src="https://unsplash.it/780/450?random" />
+        </article>
+        <article class="item clone-coding">
+          <h1>염창환 병원 </h1>
+          <img src="https://unsplash.it/720/460?random" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Print </h1>
+          <img src="./imgs/projects/graphicDesign/mockup_poster.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Advertisement </h1>
+          <img src="./imgs/projects/graphicDesign/mockup_print.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Web Card News </h1>
+          <img src="./imgs/projects/graphicDesign/mockup_cardNews.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Web Detailed Page</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_detailedPge.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Web Review Event Page</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_reviewEvent.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Artwork</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_artWork.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Artwork</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_albumCover.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Logo</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_logo.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Logo</h1>
+          <img src="./imgs/projects/graphicDesign/logo_heeya.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Pattern</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_cakePattern.jpg" />
+        </article>
+        <article class="item graphic-design">
+          <h1>Pattern</h1>
+          <img src="./imgs/projects/graphicDesign/mockup_pattern.jpg" />
+        </article>
       </div>
+    
+    <!--Loading message -->
+      <div class="loading_msg">Loading...</div>
      </div>
-    </section>
-
-    <!-- graphic__design -->
-    <section id="graphic__design" class="section">
-   <div class="section__container">
-    <h1>Graphic Design</h1>
-    <div class="">
-    </div>
-   </div>
     </section>
 
     <!-- Contact -->
