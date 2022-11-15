@@ -1,0 +1,166 @@
+{
+  "imageFolder": "imgs/projects/",
+  "projectList": [
+    {
+      "img": "dk_fullScreenCapture.png",
+      "title": "대광건영",
+      "desc": "Clone Coding with HTML, CSS, and JS",
+      "category": ["clone-coding"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "lg_fullScreenCapture.png",
+      "title": "LG재단",
+      "desc": "Clone Coding Responsive Webpage with HTML, CSS, and JS",
+      "category": ["clone-coding"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_albumCover.jpg",
+      "title": "Practice Design",
+      "desc": "Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_artWork.jpg",
+      "title": "Practice Design",
+      "desc": "Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_breakImage.jpg",
+      "title": "Practice Design",
+      "desc": "Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_cakePattern.jpg",
+      "title": "Practice Design",
+      "desc": "Artwork Design with Illustrator",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "Mockup_character.jpg",
+      "title": "Practice Design",
+      "desc": "Character Design Artwork with Illustrator",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_clippingMask.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_detailedPge.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_fillterEffect.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_hj.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_imageTrace.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_joy.jpg",
+      "title": "Practice Design",
+      "desc": " Advertisement Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_logo.jpg",
+      "title": "Practice Design",
+      "desc": " Advertisement Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_nukkiHair.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_oilpaint.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_oldPicture.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_pattern.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_pick.jpg",
+      "title": "Practice Design",
+      "desc": " Artwork Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_picWithChar.jpg",
+      "title": "Practice Design",
+      "desc": " Advertisement Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_poster.jpg",
+      "title": "Practice Design",
+      "desc": " Print Design with Photoshop",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "mockup_reviewEvent.jpg",
+      "title": "Practice Design",
+      "desc": " Review Event WebPage with Illustrator",
+      "category": ["graphic-design"],
+      "link": "http://www.daum.net"
+    },
+    {
+      "img": "ys_fullScreenCapture.png",
+      "title": "연세대학교 이과대학",
+      "desc": "Clone Coding Responsive Web with HTML, CSS, and JS",
+      "category": ["clone-coding"],
+      "link": "http://www.daum.net"
+    }
+  ]
+}
