@@ -14,7 +14,7 @@
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 1000px;
   padding: 100px;
   padding-top: 120px;
   text-align: center;
@@ -212,29 +212,32 @@
   padding: 10px;
   box-sizing: border-box;
 }
-#work .list ul li a {
-  display: block;
+#work .list ul li .inner {
   background-color: #fcdfbd;
-  padding: 10px;
 }
-#work .list ul li a img {
+#work .list ul li .inner a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+#work .list ul li .inner img {
   width: 100%;
 }
-#work .list ul li a .info h2 {
+#work .list ul li .inner .info h2 {
   font-size: 20px;
   font-weight: 700;
   margin: 10px 0;
   color: #007f55;
 }
-#work .list ul li a .info .desc {
+#work .list ul li .inner .info .desc {
   color: #333;
   line-height: 1.5;
 }
-#work .list ul li a .info .category {
+#work .list ul li .inner .info .category {
   margin-top: 20px;
   margin-bottom: 0;
 }
-#work .list ul li a .info .category span {
+#work .list ul li .inner .info .category span {
   display: inline-block;
   margin-right: 5px;
   padding: 7px 20px;
@@ -291,7 +294,6 @@
   pointer-events: none;
   pointer-events: auto;
 }
-
 .arrow-up.visible {
   opacity: 1;
 }
@@ -358,4 +360,7 @@
     width: 100%;
     min-height: 220px;
   }
+}
+.fancybox__caption a {
+  color: #fff;
 }

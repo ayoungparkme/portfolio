@@ -13,14 +13,14 @@
       "title": "LG재단",
       "desc": "Clone Coding Responsive Webpage with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "http://127.0.0.1/2022-front-end-02/lg-clone-coding/pc/html/index.html"
+      "link": "http://ayoungparkme.dothome.co.kr/lg/"
     },
     {
       "img": "mockup_albumCover.jpg",
       "title": "Practice Design",
       "desc": "Artwork Design with Photoshop",
       "category": ["graphic-design"],
-      "link": "http://www.daum.net"
+      "link": "https://ayoungparkme.wixsite.com/ayoungparkme/single-project-28"
     },
     {
       "img": "mockup_artWork.jpg",
@@ -160,7 +160,7 @@
       "title": "연세대학교 이과대학",
       "desc": "Clone Coding Responsive Web with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "http://127.0.0.1/2022-front-end-02/yonsei-clone-coding/responsive/html.hyml"
+      "link": "http://www.daum.net"
     }
   ]
 }

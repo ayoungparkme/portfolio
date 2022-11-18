@@ -17,7 +17,7 @@
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 1000px;
   padding: 100px;
   padding-top: 120px;
   text-align: center;
@@ -219,13 +219,17 @@
         width: 25%;
         padding: 10px;
         box-sizing: border-box;
-        a {
-          display: block;
+        .inner {
           background-color: $light-yellow;
-          padding: 10px;
+          a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+          }
           img {
             width: 100%;
           }
+
           .info {
             h2 {
               font-size: 20px;
@@ -306,9 +310,9 @@
   transition: opacity 300ms ease-in;
   pointer-events: none;
   pointer-events: auto;
-}
-.arrow-up.visible {
-  opacity: 1;
+  &.visible {
+    opacity: 1;
+  }
 }
 
 // for below 768px screen width
@@ -391,5 +395,10 @@
       width: 100%;
       min-height: 220px;
     }
+  }
+}
+.fancybox__caption {
+  a {
+    color: #fff;
   }
 }

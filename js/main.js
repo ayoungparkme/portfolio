@@ -157,14 +157,20 @@ $.ajax({ url: "./data/projects.json" })
         categoryHtml += `<span>#${item02}</span>`;
       });
       listHtml += `<li class="item ${item.category.join(" ")}">
-                        <a href="./imgs/projects/${item.img}" data-fancybox="${item.category}">
-                          <div class="img"><img src="./imgs/projects/${item.img}" alt="" /></div>
-                          <div class="info">
-                            <h2>${item.title}</h2>
-                            <p class="desc">${item.desc}</p>
-                            <p class="category">${categoryHtml}</p>
-                          </div>
-                        </a>
+                        <div class="inner">
+                          <a href="./imgs/projects/${item.img}" 
+                            data-fancybox="${item.category}" 
+                            target="_blank"
+                            data-caption="<a href='${item.link}'>
+                            바로가기
+                            </a>">
+                            <div class="img"><img src="./imgs/projects/${item.img}" alt="" /></div>
+                            </a>
+                            <div class="info">
+                              <h2>${item.title}</h2>
+                              <p class="desc">${item.desc}</p>
+                              <p class="category">${categoryHtml}</p>
+                        </div>
                       </li>`;
     });
     $(".list ul").html(listHtml);
