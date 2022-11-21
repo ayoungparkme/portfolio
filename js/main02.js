@@ -36,16 +36,14 @@ $.ajax({ url: "./data/projects.json" })
                         <div class="inner">
                           <a href="./imgs/projects/${item.img}" 
                             data-fancybox="${item.category}" 
-                            target="_blank"
-                            data-caption="<a href='${item.link}'>
-                            바로가기
-                            </a>">
+                            data-caption="<a href='${item.link}' target='_blank'>바로가기</a>">
                             <div class="img"><img src="./imgs/projects/${item.img}" alt="" /></div>
-                            </a>
-                            <div class="info">
-                              <h2>${item.title}</h2>
-                              <p class="desc">${item.desc}</p>
-                              <p class="category">${categoryHtml}</p>
+                          </a>
+                          <div class="info">
+                            <h2>${item.title}</h2>
+                            <p class="desc">${item.desc}</p>
+                            <p class="category">${categoryHtml}</p>
+                          </div>
                         </div>
                       </li>`;
     });

@@ -2,11 +2,46 @@
   "imageFolder": "imgs/projects/",
   "projectList": [
     {
+      "img": "progileLinkTree.jpg",
+      "title": "Profile Link Tree",
+      "desc": "Toy Project with HTML, CSS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/profile_link/"
+    },
+    {
+      "img": "fullPageBookSearch.png",
+      "title": "Book Search Website",
+      "desc": "Toy Project with HTML, CSS, JS and Web API",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/bookSearchProject/html/"
+    },
+    {
+      "img": "fullPageYch.png",
+      "title": "염창환 병원",
+      "desc": "Clone Coding with HTML, CSS, and JS",
+      "category": ["clone-coding"],
+      "link": "https://ayoungparkme.github.io/ych-clone-coding/"
+    },
+    {
       "img": "dk_fullScreenCapture.png",
       "title": "대광건영",
       "desc": "Clone Coding with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "daekwang-clone-coding.netlify.app"
+      "link": "http://daekwang-clone-coding.netlify.app"
+    },
+    {
+      "img": "fullPageMobileHb.png",
+      "title": "HB PAPER Mobile Version",
+      "desc": "Clone Coding with HTML, CSS, and JS",
+      "category": ["clone-coding"],
+      "link": "https://ayoungparkme.github.io/hbpaper-mobile/html/p"
+    },
+    {
+      "img": "captureHb.png",
+      "title": "HB PAPER",
+      "desc": "Clone Coding with HTML, CSS, and JS",
+      "category": ["clone-coding"],
+      "link": "https://ayoungparkme.github.io/hbpaper-clone-coding/html/"
     },
     {
       "img": "lg_fullScreenCapture.png",
@@ -160,7 +195,7 @@
       "title": "연세대학교 이과대학",
       "desc": "Clone Coding Responsive Web with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "http://www.daum.net"
+      "link": "http://ayoungparkme.dothome.co.kr/yonsei/"
     },
     {
       "img": "mockup_print.jpg",

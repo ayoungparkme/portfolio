@@ -229,7 +229,6 @@
           img {
             width: 100%;
           }
-
           .info {
             h2 {
               font-size: 20px;
@@ -378,27 +377,13 @@
     bottom: 16px;
   }
 }
-// Mediaqueries
-@media (max-width: 860px) {
-  // set to 2 column
-  #mnsry_container {
-    article {
-      width: 50%;
-      min-height: 150px;
-    }
-  }
-}
-@media (max-width: 667px) {
-  // set to 1 column
-  #mnsry_container {
-    article {
-      width: 100%;
-      min-height: 220px;
-    }
-  }
-}
+
 .fancybox__caption {
   a {
     color: #fff;
+    background-color: $light-pink;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px;
   }
 }
