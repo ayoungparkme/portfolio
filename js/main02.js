@@ -21,6 +21,18 @@ $(".home__contact").on("click", function () {
   gsap.to(window, { duration: 1, scrollTo: { y: "#contact", offsetY: 0 } });
 });
 
+// animation #home
+Splitting();
+$(window).on("load", function () {
+  const target = document.querySelector(".home__container");
+  const results = Splitting({ target: target, by: "lines" });
+
+  results[0].lines.forEach((line, index) => {
+    line.forEach((word) => {
+      gsap.from(word, { opacity: 0, delay: index / 2 });
+    });
+  });
+});
 // json list for projects with isotope.js
 $.ajax({ url: "./data/projects.json" })
   .done(function (response) {

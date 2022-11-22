@@ -16,12 +16,19 @@
   background-repeat: no-repeat;
   height: 1000px;
   padding: 100px;
-  padding-top: 120px;
+  padding-top: 200px;
   text-align: center;
+}
+#home h1 {
+  font-size: 72px;
+}
+#home h2 {
+  font-size: 42px;
 }
 #home .home__title,
 #home .home__description {
   color: #fff;
+  font-weight: 700;
 }
 #home .home__contact {
   font-size: 18px;

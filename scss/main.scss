@@ -19,11 +19,18 @@
   background-repeat: no-repeat;
   height: 1000px;
   padding: 100px;
-  padding-top: 120px;
+  padding-top: 200px;
   text-align: center;
+  h1 {
+    font-size: $h1 * 1.5;
+  }
+  h2 {
+    font-size: $h2 * 1.5;
+  }
   .home__title,
   .home__description {
     color: #fff;
+    font-weight: 700;
   }
   .home__contact {
     font-size: $h3;
