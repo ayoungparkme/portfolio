@@ -36,7 +36,6 @@ $(window).on("load", function () {
 // json list for projects with isotope.js
 $.ajax({ url: "./data/projects.json" })
   .done(function (response) {
-    console.log(response);
     const projectList = response.projectList;
     let listHtml = "";
     $.each(projectList, function (idx, item) {
@@ -116,4 +115,33 @@ $(".arrow-up").on("click", function () {
 const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
 navbarToggleBtn.addEventListener("click", () => {
   navbarMenu.classList.toggle("open");
+});
+
+// skills scrollTrigger
+const mySkill = {
+  myHtml: 99,
+  myCss: 90,
+  myJs: 90,
+};
+
+const skillTL = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".skill__bar",
+    markers: myMarker,
+    start: "top-=100 top",
+    end: "bottom top",
+    pin: true,
+    scrub: 2,
+  },
+});
+skillTL.from(mySkill, {
+  myHtml: 0,
+  myCss: 0,
+  myJs: 0,
+  duration: 3,
+  onUpdate: function () {
+    $(".skill__bar").text(Math.round(mySkill.myHtml));
+    $(".skill__bar").text(Math.round(mySkill.myCss));
+    $(".skill__bar").text(Math.round(mySkill.myJs));
+  },
 });
