@@ -2,6 +2,27 @@
   "imageFolder": "imgs/projects/",
   "projectList": [
     {
+      "img": "captureMemoryGameStart.png",
+      "title": "Memory Game ",
+      "desc": "Toy Project with HTML, CSS and JS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/memory-game/"
+    },
+    {
+      "img": "captureLotto.jpg",
+      "title": "Lotto Game ",
+      "desc": "Toy Project with HTML, CSS and JS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/lotto/"
+    },
+    {
+      "img": "captureRPSStart.jpg",
+      "title": "Rock-Paper-Scissor Game ",
+      "desc": "Toy Project with HTML, CSS and JS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/rock-paper-scissors/"
+    },
+    {
       "img": "progileLinkTree.jpg",
       "title": "Profile Link Tree",
       "desc": "Toy Project with HTML, CSS",
