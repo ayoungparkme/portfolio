@@ -2,6 +2,34 @@
   "imageFolder": "imgs/projects/",
   "projectList": [
     {
+      "img": "carrot-game-before.png",
+      "title": "Carrot-Game",
+      "desc": "Toy Project with Vanilla JS",
+      "category": ["toy-project"],
+      "link": " https://ayoungparkme.github.io/Carrot-Game/"
+    },
+    {
+      "img": "shopping-list-app.jpg",
+      "title": "Shopping-List-App",
+      "desc": "Toy Project with Vanilla JS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/Shopping-List-App/"
+    },
+    {
+      "img": "find-rabbit-game.png",
+      "title": "Find-Rabbit-Game",
+      "desc": "Toy Project with Vanilla JS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/Find-Rabbit-Game/"
+    },
+    {
+      "img": "coordinate.png",
+      "title": "Find-Coordinates-Game",
+      "desc": "Toy Project with Vanilla JS",
+      "category": ["toy-project"],
+      "link": "https://ayoungparkme.github.io/Find-Coordinates-Game/"
+    },
+    {
       "img": "captureMemoryGameStart.png",
       "title": "Memory Game ",
       "desc": "Toy Project with HTML, CSS and JS",
