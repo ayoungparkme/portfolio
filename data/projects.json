@@ -2,6 +2,13 @@
   "imageFolder": "imgs/projects/",
   "projectList": [
     {
+      "img": "toDoList.png",
+      "title": "To Do List",
+      "desc": "Toy Project with REACT JS",
+      "category": ["toy-project"],
+      "link": " https://kaleidoscopic-swan-990189.netlify.app/"
+    },
+    {
       "img": "carrot-game-before.png",
       "title": "Carrot-Game",
       "desc": "Toy Project with Vanilla JS",
