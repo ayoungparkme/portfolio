@@ -2,6 +2,13 @@
   "imageFolder": "imgs/projects/",
   "projectList": [
     {
+      "img": "youtube.png",
+      "title": "YouTube",
+      "desc": "Toy Project with REACT JS",
+      "category": ["toy-project"],
+      "link": "https://extraordinary-kulfi-f8d32a.netlify.app/"
+    },
+    {
       "img": "toDoList.png",
       "title": "To Do List",
       "desc": "Toy Project with REACT JS",
