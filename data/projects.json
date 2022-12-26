@@ -2,6 +2,13 @@
   "imageFolder": "imgs/projects/",
   "projectList": [
     {
+      "img": "shoppyMain.png",
+      "title": "Shopping Mall",
+      "desc": "Toy Project with REACT JS",
+      "category": ["toy-project"],
+      "link": "https://beautiful-axolotl-5dc5e4.netlify.app"
+    },
+    {
       "img": "youtube.png",
       "title": "YouTube",
       "desc": "Toy Project with REACT JS",
