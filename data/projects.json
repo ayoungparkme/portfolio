@@ -111,14 +111,14 @@
       "title": "HB PAPER",
       "desc": "Clone Coding with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "https://ayoungparkme.github.io/hbpaper-clone-coding/html/"
+      "link": "hhttps://ayoungparkme.github.io/hbpaper-clone-coding/html/"
     },
     {
       "img": "lg_fullScreenCapture.png",
       "title": "LG재단",
-      "desc": "Clone Coding Responsive Webpage with HTML, CSS, and JS",
+      "desc": "Clone Coding mobile with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "http://ayoungparkme.dothome.co.kr/lg/"
+      "link": "https://ayoungparkme.github.io/lg-mobile/"
     },
     {
       "img": "mockup_albumCover.jpg",
@@ -263,9 +263,9 @@
     {
       "img": "ys_fullScreenCapture.png",
       "title": "연세대학교 이과대학",
-      "desc": "Clone Coding Responsive Web with HTML, CSS, and JS",
+      "desc": "Clone Coding mobile with HTML, CSS, and JS",
       "category": ["clone-coding"],
-      "link": "http://ayoungparkme.dothome.co.kr/yonsei/"
+      "link": "https://ayoungparkme.github.io/yonsei-mobile/"
     },
     {
       "img": "mockup_print.jpg",
